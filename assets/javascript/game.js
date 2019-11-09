@@ -9,3 +9,9 @@ var diamondValue = 0;
 var emeraldValue = 0;
 var citrineValue = 0;
 var garnetValue = 0;
+
+var wins = 0;
+var losses = 0;
+
+var currentTotal = 0;
+

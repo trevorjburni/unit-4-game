@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/triangles-1430105_1280.png");
+}
+
+
+
+.instructions, .number-block, .scoreboard, .buttons, #heading, #total-score-msg {
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+
+.crystal, .scoreboard,  #heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.5rem;
+}

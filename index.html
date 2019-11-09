@@ -26,29 +26,38 @@
             <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to you
                 total score.</p>
             <p>You win the game by matching your total score to the random number, you lose the game if you total score
-                goes above the random number</p>
+                goes above the random number.</p>
             <p>The value of each crystal is hidden from you until you click on it.</p>
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </div>
-        <div class="number-block">
-            <h2 id="goal"></h2>
-
+        <div class="row scoreboard">
+            <div class="col-lg-2"></div>
+            <h3 class="col-lg-2" id="wins-title">Wins: </h3>
+            <h3 class="col-lg-2" id="wins"></h3>
+            <h3 class="col-lg-2" id="losses-title">Losses: </h3>
+            <h3 class="col-lg-2" id="losses"></h3>
+            <div class="col-lg-2"></div>
         </div>
-        <div class="scoreboard">
-            <h3 id="wins"></h3>
-            <h3 id="losses"></h3>
+        <div class="number-block row">
+            <div class="col-lg-2"></div>
+            <h2 class="col-lg-4" id="goal-title">Your random number is: </h2>
+            <h2 class="col-lg-4" id="goal"></h2>
+            <div class="col-lg-2"></div>
         </div>
-        <div class="crystal">
-            <img src="assets/images/resized2-brilliant-160374_1280.png">
-        </div>
-        <div class="crystal">
-            <img src="assets/images/diamond-309694_960_720.png">
-        </div>
-        <div class="crystal">
-            <img src="assets/images/gemstone-26088_960_720.png">
-        </div>
-        <div class="crystal">
-            <img src="assets/images/red-576239_960_720.png">
+        <div class="row buttons">
+            <div></div>
+            <div class="crystal col-lg-3">
+                <img src="assets/images/resized2-brilliant-160374_1280.png">
+            </div>
+            <div class="crystal col-lg-3">
+                <img src="assets/images/diamond-309694_960_720.png">
+            </div>
+            <div class="crystal col-lg-3">
+                <img src="assets/images/gemstone-26088_960_720.png">
+            </div>
+            <div class="crystal col-lg-3">
+                <img src="assets/images/red-576239_960_720.png">
+            </div>
         </div>
         <div>
             <h3 id="total-score-msg">
