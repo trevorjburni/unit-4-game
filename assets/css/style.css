@@ -4,13 +4,13 @@ body {
 
 
 
-.instructions, .number-block, .scoreboard, .buttons, #heading, #total-score-msg {
+.instructions, .number-block, .scoreboard, .buttons, .total-score-block, #heading {
     background-color: #fff;
     margin: 30px;
     padding: 20px;
 }
 
-.crystal, .scoreboard,  #heading {
+.crystal, #heading {
     text-align: center;
 }
 
